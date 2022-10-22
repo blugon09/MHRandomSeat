@@ -37,7 +37,7 @@ function inputPassword() {
     const password = "mh3-2"
     const input = document.getElementById("inputPassword")
     if(input.value === password) {
-        window.open("https://mh32.blugon.kr/main.html")
+        window.open("http://mh32.blugon.kr/main.html")
     }
 }
 
