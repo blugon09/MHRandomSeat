@@ -33,14 +33,6 @@ function change() {
     console.log(people)
 }
 
-function inputPassword() {
-    const password = "mh3-2"
-    const input = document.getElementById("inputPassword")
-    if(input.value === password) {
-        window.open("https://mh32.blugon.kr/main.html")
-    }
-}
-
 function shuffle(array) {
     array.sort(() => Math.random()-0.5)
 }
